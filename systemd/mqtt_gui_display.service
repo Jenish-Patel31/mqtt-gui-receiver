@@ -1,0 +1,13 @@
+[Unit]
+Description=MQTT GUI Display
+After=network.target
+
+[Service]
+User=pi
+WorkingDirectory=/home/pi/mqtt_gui_project
+ExecStart=/home/pi/mqtt_gui_project/venv/bin/python3 /home/pi/mqtt_gui_project/test.py
+Restart=always
+Environment=DISPLAY=:0
+
+[Install]
+WantedBy=graphical.target
