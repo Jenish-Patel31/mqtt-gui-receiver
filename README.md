@@ -1,18 +1,18 @@
-# 🖥️ MQTT GUI Receiver with Systemd Autostart
+# 🖥️ MQTT GUI Receiver with Auto-Start
 
-A Python-based desktop GUI application that receives and visually displays MQTT messages (text and images) in real time. Built for edge-device communication using **MQTT**, the system is optimized for use in IoT, surveillance, and remote sensor networks. This solution includes a **systemd service** to auto-start the receiver on boot, making it production-ready for Raspberry Pi or other Linux-based environments.
+A Python-based desktop application that receives and displays MQTT messages (text + images) in real time with a simple GUI.
+Optimized for IoT, surveillance, and edge-device communication, the system includes a systemd service to auto-start on boot, making it production-ready for Raspberry Pi and other Linux-based devices.
 
 ---
 
 ## 🚀 Project Motivation
 
-In modern IoT and real-time systems, reliable message delivery with low latency is crucial. Whether it’s a surveillance system sending images or a sensor node transmitting readings, **MQTT** (Message Queuing Telemetry Transport) is the protocol of choice due to its lightweight design.
-
-This project was designed to:
-- Learn and implement real-time data exchange using MQTT.
-- Build a GUI that visually displays incoming data.
-- Make the setup robust by auto-starting it on boot using **systemd**.
-- Simulate practical use cases like remote image monitoring or alert displays.
+Modern IoT and real-time systems demand reliable, low-latency data exchange. MQTT is lightweight, efficient, and ideal for constrained devices.
+This project was built to:
+- Implement real-time messaging with MQTT.
+- Provide a visual GUI for displaying incoming text/images.
+- Ensure robustness with auto-start on boot.
+- Support practical use cases such as remote monitoring and smart displays.
 
 ---
 
